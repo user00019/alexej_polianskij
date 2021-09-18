@@ -3,38 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <title>Additional hometask</title>
+  <style>
+  h3 {
+    line-height: 60%
+  }
+
+  </style>
 </head>
 <body>
   <h1 align="center">Заголовок первого уровня</h1>
     <h2>Предварительно форматированный текст:</h2>
-<p>x | o |  <br>
-‐‐‐‐‐‐‐‐‐‐‐ <br>
-| х | <br>
-‐‐‐‐‐‐‐‐‐‐‐ <br>
-o | x | o </p>
-<hr align="left" width="45%">
- <h2>Тег adress</h2>
-   <address><i>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</i></address>
-<hr align="left" width="45%">
+<pre>
+   x | o |
+  ‐‐‐‐‐‐‐‐‐‐‐
+     | х |
+  ‐‐‐‐‐‐‐‐‐‐‐
+   o | x | o
+</pre>
+<hr width="100%" size="2" noshade>
+ <h2>Тег address</h2>
+   <address>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</address>
+<hr width="100%" size="2" noshade>
   <h2>Семантические и функциональные строчные теги</h2>
   <p><font size="3" color="black" face="Times">Пожелания автора.</font> <br>
-<font size="3" color="red" face="Times"><s>Данный текст убрать из монографии</s></font> и заменить его на <font size="3" color="blue" face="Times"><u>вновь помещённый текст.</u></font></p>
-<hr align="left" width="45%">
+<font size="3" color="red" face="Times"><del>Данный текст убрать из монографии</del></font> и заменить его на <font size="3" color="blue" face="Times"><ins>вновь помещённый текст.</ins></font></p>
+<hr width="100%" size="2" noshade>
 <h2>Работа со строчными и блоковыми цитатами</h2>
 <p>Цитата короткая: <br>
 <i>И всё-­таки она вертится!</i></p>
 <p>Цитата занимающая несколько предложений:</p>
 
+<blockquote>
 <p>О сколько нам открытий чудных <br>
 Готовят просвещенья дух <br>
 И опыт, сын ошибок трудных, <br>
 И гений, парадоксов друг, <br>
 И случай, бог изобретатель...</p>
-<hr align="left" width="45%">
+</blockquote>
+<hr width="100%" size="2" noshade>
 <h2>Семантические и функциональные строчные теги</h2>
 <p><STRONG>Тэг &lt;STRONG&gt; делает данный фрагмент текста более важным.</STRONG><i> Тэг &lt;em&gt; менее важным.</i> <br>
 В то время как теги &lt;b&gt; и &lt;i&gt; делают текст просто <b>полужирным</b> и <i>курсивом</i> соответственно.</p>
-<hr align="left" width="45%">
+<hr width="100%" size="2" noshade>
 <h2>Теги форматирования машинного языка</h2>
 <p>При выполнении программного кода на языке PERL:</p>
 <p><font size="2" color="black" face="Courier New">#!/usr/local/bin/perl <br>
@@ -44,8 +54,31 @@ print "&lt;H1&gt;Hello World&lt;/H1&gt;\n";</font></p>
 <p><font size="2" color="black" face="Courier New">Hello, world!</font></p>
 <p>Однако в браузере у нас будет отображаться результат выполнения этой программы:</p>
 <h1>Hello, World!</h1>
-<hr align="left" width="45%">
+<hr width="100%" size="2" noshade>
 <h2>Комментарии и литералы(мнемоники) в HTML</h2>
+<pre>
+<font size="2" color="black" face="Courier New">&lt;!‐‐ это комментарий ‐‐&gt;
+                &lt;!‐‐ и это также комментарий,
+                занимающий более одной строки ‐‐&gt;</font>
+</pre>
+<hr width="100%" size="2" noshade>
+<h2>Теги над­- и подстрочных символов</h2>
+<p align="center"><b>Магазин работает:</b></p>
+<p align="center">c 08<sup><u>30</u></sup> до 18<sup><u>30</u></sup></p>
+<p align="center">обед с 13<sup><u>00</u></sup> до 14<sup><u>00</u></sup></p>
+<p align="center">выходной:<u> суббота</u>, <u>воскресенье</u></p>
+<hr width="100%" size="2" noshade>
+<h2>Вот такой текст</h2>
+<pre><h3><big>
+Э о  р с о  е ё ы  т к т
+ т  п о т  в с л й  е с
+</big></h3></pre>
+<hr width="100%" size="2" noshade>
+<h2>Акроним и курсив</h2>
+<p>ТФ: Y(x)=e<sup>i&#120587;x</sup>+log<sub>x</sub>4</p>
+<hr width="100%" size="2" noshade>
+<h2>Тег small внтури абзаца</h2>
+<p align="right"><small>Создано при помощи блокнота&#169;</small></p>
 
 
 
