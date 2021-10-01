@@ -1,83 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .card1{
-            background-image: url(cards.png);
-            background-repeat: no-repeat;
-            background-position: -142.75px -198.23px;
-            width: 134px; height: 187px;
-            float: left;
-            border-radius: 26px;
-        }
-        .card2{
-            background-image: url(cards.png);
-            background-repeat: no-repeat;
-            background-position: -429.75px -594.23px;
-            width: 139.75px; height: 190.23px;
-            float: left;
-            border-radius: 30px;
-        }
-        .card3{
-            background-image: url(cards.png);
-            background-repeat: no-repeat;
-            background-position: -286px -1390px;
-            width: 139.75px; height: 191.23px;
-            float: left;
-            border-radius: 22px;
-        }
-        .position1{
-            position: relative;
-            left: 44px;
-            margin-top: 3px;
-        }
-        .position2{
-            position: relative;
-            left: -53px;
-            top: 0px;
-
-        }
-        .position3{
-            position: relative;
-            left: -150px;
-            top: 0px;
-
-        }
-        body{
-            background-color: tomato;
-        }
-
-
-    </style>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .text {
+      background-color: #000;
+      color: green;
+      width: 400px;
+      max-height: 5em;
+      overflow: auto;
+    }
+    ul {
+      list-style-type: upper-roman;
+      width:350px;
+    }
+    li ul {
+      list-style-type: lower-roman;
+    }
+  </style>
 </head>
 <body>
-
-    <div class="card1"></div>
-    <div class="card2"></div>
-    <div class="card3"></div>
-
-    <div class="card1 position1"></div>
-    <div class="card2 position2"></div>
-    <div class="card3 position3"></div>
-
-
-
-
+  <div>
+    <ul>
+      <li><b>Контейнер с кодом</b>
+        <ul>
+        <li>Цвет фона: черный</li>
+        <li>Цвет текста: зеленый</li>
+        <li>Ширина 400px</li>
+        <li>Максимальная высота контейнера: 4 строки</li>
+        <li>Переполнение: авто</li>
+      </ul></li>
+      <li><b>Список</b>
+      <ul>
+        <li>Ширина 350px</li>
+        <li>Тип списка: римские цифры</li>
+        <li>Тип вложенного списка: римские цифры, нижний регистр</li>
+      </ul></li>
+    </ul>
+  </div>
+  <div class="text">
+    #!/usr/bin/env python <br>
+    print 'Hello. I am a python program.' <br>
+    name = raw_input("What is your name?") <br>
+    print "Hello there, " + name + "!"
+  </div>
 </body>
 </html>
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
