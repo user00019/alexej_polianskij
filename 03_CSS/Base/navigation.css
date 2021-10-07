@@ -46,8 +46,8 @@ float:none;
     float: none;
   }
   .menu li:hover ul {
-    position: relative;
-    top: -30px;
-    right: -60px;
+    position: absolute;
+    top: 0;
+    right: -100px;
   }
 }
