@@ -1,0 +1,9 @@
+table {
+  border-width: 1px;
+  width: 600px;
+  height: 200px;
+  border-collapse: collapse;
+}
+th:first-child {
+  text-align:left;
+}
